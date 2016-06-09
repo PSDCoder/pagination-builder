@@ -3,6 +3,7 @@
 [![Travis](https://img.shields.io/travis/PSDCoder/pagination-builder.svg?style=flat-square)](https://travis-ci.org/PSDCoder/pagination-builder)
 [![npm version](https://img.shields.io/npm/v/pagination-builder.svg?style=flat-square)](https://www.npmjs.com/package/pagination-builder)
 [![npm downloads](https://img.shields.io/npm/dm/pagination-builder.svg?style=flat-square)](https://www.npmjs.com/package/pagination-builder)
+
 Pagination builder is the simple function that generates pagination array by passed current page and total pages.
 It performs all the logic for you and you just have to draw the result.
 
