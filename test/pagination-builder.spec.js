@@ -76,7 +76,7 @@ describe('paginationBuilder', () => {
         it('Custom "beforeCurrent" option', () => {
             const beforeCurrent = 4;
             const result = paginationBuilder(15, 30, { beforeCurrent });
-            const currentIndex = result.findIndex(item => item.isCurrent);
+            const currentIndex = result.findIndex(item => item.isActive);
             const firstDotsIndex = result.findIndex(item => item.text === '...');
 
             expect(currentIndex - firstDotsIndex).to.equal(beforeCurrent + 1);
@@ -85,7 +85,7 @@ describe('paginationBuilder', () => {
         it('Custom "afterCurrent" option', () => {
             const afterCurrent = 10;
             const result = paginationBuilder(15, 40, { afterCurrent });
-            const currentIndex = result.findIndex(item => item.isCurrent);
+            const currentIndex = result.findIndex(item => item.isActive);
             const lastDotsIndex = result.findIndex(item => item === result.filter(fItem => fItem.text === '...')[1]);
 
             expect(lastDotsIndex - currentIndex).to.equal(afterCurrent + 1);

@@ -13,8 +13,8 @@ function isNumber(value) {
     return typeof value === 'number';
 }
 
-function createElement(text, page = null, isCurrent = false, isDisabled = false) {
-    return { text, page, isCurrent, isDisabled };
+function createElement(text, page = null, isActive = false, isDisabled = false) {
+    return { text, page, isActive, isDisabled };
 }
 
 export default function paginationBuilder(currentPage, totalPages, options = {}) {
