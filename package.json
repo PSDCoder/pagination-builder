@@ -1,6 +1,6 @@
 {
   "name": "paginator-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Calculate pagination array for easier building of pagination markup.",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
