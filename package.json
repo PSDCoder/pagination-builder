@@ -6,7 +6,9 @@
   "jsnext:main": "es/index.js",
   "files": [
     "dist",
-    "src"
+    "src",
+    "lib",
+    "es"
   ],
   "scripts": {
     "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register",
