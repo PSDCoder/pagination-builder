@@ -1,1 +1,5 @@
-.idea
+*.log
+node_modules
+dist
+lib
+es
